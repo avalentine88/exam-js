@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin-top: 30px;
+}
+.container {
+    width: 50%;
+    margin: 50px auto;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form > label:not(:last-child) {
+    margin: 0 0 50px 0;
+}
+
+.form > label {
+    display: flex;
+    justify-content: space-between;
+}
+
+input,
+textarea {
+    width: 400px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    margin: 5px 0 0 0;
+    color: red;
+}
+
+.send {
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+
+.success {
+    color: green;
+}
+
+.task{
+    cursor: pointer;
+    background: #aaaaaa;
+}
+
+.task:nth-child(2n){
+    background: gray;
+}
+
+.task__container {
+    padding: 20px;
+}
+
+.task__title{
+    margin: 0 0 20px 0;
+    font-size: 20px;
+}
+
+.task__text{
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.button{
+    display: block;
+    padding: 15px 30px;
+    width: max-content;
+    margin: 20px auto;
+    text-decoration: none;
+    color: black;
+    background: #aaa;
+    border-radius: 5px;
+}
+
+.data {
+    font-weight: bold;
+}
+
+.choose {
+    background: orange !important;
+}
+
+.text-transform {
+    text-transform: uppercase;
+    text-align: center;
+}
